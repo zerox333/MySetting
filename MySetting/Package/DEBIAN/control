@@ -1,6 +1,6 @@
 Package: com.zerox.MySetting
 Name: MySetting
-Version: 0.1-1
+Version: 1.0-1
 Description: 
 Section: PreferenceBundles
 Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
