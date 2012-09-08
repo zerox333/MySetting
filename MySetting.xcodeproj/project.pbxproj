@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABBC26FC15FB1E5200DF8880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBC26FB15FB1E5200DF8880 /* Foundation.framework */; };
+		ABBC26FE15FB1E5200DF8880 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBC26FD15FB1E5200DF8880 /* UIKit.framework */; };
+		ABBC270015FB1E5200DF8880 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBC26FF15FB1E5200DF8880 /* Preferences.framework */; };
+		ABBC270B15FB1E5200DF8880 /* MySettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBC270A15FB1E5200DF8880 /* MySettingController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABBC26F815FB1E5200DF8880 /* MySetting.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySetting.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBC26FB15FB1E5200DF8880 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABBC26FD15FB1E5200DF8880 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABBC26FF15FB1E5200DF8880 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = Library/Frameworks/Preferences.framework; sourceTree = DEVELOPER_DIR; };
+		ABBC270415FB1E5200DF8880 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		ABBC270515FB1E5200DF8880 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		ABBC270715FB1E5200DF8880 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		ABBC270815FB1E5200DF8880 /* MySetting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySetting-Info.plist"; sourceTree = "<group>"; };
+		ABBC270915FB1E5200DF8880 /* MySettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySettingController.h; sourceTree = "<group>"; };
+		ABBC270A15FB1E5200DF8880 /* MySettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySettingController.m; sourceTree = "<group>"; };
+		ABBC270F15FB1E5200DF8880 /* MySetting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MySetting.plist; path = Package/Library/PreferenceLoader/Preferences/MySetting.plist; sourceTree = "<group>"; };
+		ABBC271215FB1E5200DF8880 /* MySetting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MySetting.plist; path = Package/Library/PreferenceBundles/MySetting.bundle/MySetting.plist; sourceTree = "<group>"; };
+		ABBC271315FB1E5200DF8880 /* MySettingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MySettingIcon.png; path = Package/Library/PreferenceBundles/MySetting.bundle/MySettingIcon.png; sourceTree = "<group>"; };
+		ABBC271415FB1E5200DF8880 /* MySettingIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MySettingIcon@2x.png"; path = "Package/Library/PreferenceBundles/MySetting.bundle/MySettingIcon@2x.png"; sourceTree = "<group>"; };
+		ABBC271915FB1E5200DF8880 /* com.zerox.MySetting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = com.zerox.MySetting.plist; path = Package/var/mobile/Library/Preferences/com.zerox.MySetting.plist; sourceTree = "<group>"; };
+		ABBC271A15FB1E5200DF8880 /* MySetting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySetting-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBC26F415FB1E5200DF8880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBC26FC15FB1E5200DF8880 /* Foundation.framework in Frameworks */,
+				ABBC26FE15FB1E5200DF8880 /* UIKit.framework in Frameworks */,
+				ABBC270015FB1E5200DF8880 /* Preferences.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBC26EC15FB1E5200DF8880 = {
+			isa = PBXGroup;
+			children = (
+				ABBC270115FB1E5200DF8880 /* MySetting */,
+				ABBC26FA15FB1E5200DF8880 /* Frameworks */,
+				ABBC26F915FB1E5200DF8880 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBC26F915FB1E5200DF8880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC26F815FB1E5200DF8880 /* MySetting.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBC26FA15FB1E5200DF8880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC26FB15FB1E5200DF8880 /* Foundation.framework */,
+				ABBC26FD15FB1E5200DF8880 /* UIKit.framework */,
+				ABBC26FF15FB1E5200DF8880 /* Preferences.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABBC270115FB1E5200DF8880 /* MySetting */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC270915FB1E5200DF8880 /* MySettingController.h */,
+				ABBC270A15FB1E5200DF8880 /* MySettingController.m */,
+				ABBC270215FB1E5200DF8880 /* Package */,
+				ABBC270615FB1E5200DF8880 /* Supporting Files */,
+			);
+			path = MySetting;
+			sourceTree = "<group>";
+		};
+		ABBC270215FB1E5200DF8880 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC270315FB1E5200DF8880 /* DEBIAN */,
+				ABBC270C15FB1E5200DF8880 /* Library */,
+				ABBC271515FB1E5200DF8880 /* var */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		ABBC270315FB1E5200DF8880 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC270415FB1E5200DF8880 /* control.txt */,
+				ABBC270515FB1E5200DF8880 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		ABBC270615FB1E5200DF8880 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC270715FB1E5200DF8880 /* PackageVersion.plist */,
+				ABBC270815FB1E5200DF8880 /* MySetting-Info.plist */,
+				ABBC271A15FB1E5200DF8880 /* MySetting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABBC270C15FB1E5200DF8880 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC270D15FB1E5200DF8880 /* PreferenceLoader */,
+				ABBC271015FB1E5200DF8880 /* PreferenceBundles */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		ABBC270D15FB1E5200DF8880 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC270E15FB1E5200DF8880 /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		ABBC270E15FB1E5200DF8880 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC270F15FB1E5200DF8880 /* MySetting.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		ABBC271015FB1E5200DF8880 /* PreferenceBundles */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC271115FB1E5200DF8880 /* ___PACKAGENAME___.bundle */,
+			);
+			name = PreferenceBundles;
+			sourceTree = "<group>";
+		};
+		ABBC271115FB1E5200DF8880 /* ___PACKAGENAME___.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC271215FB1E5200DF8880 /* MySetting.plist */,
+				ABBC271315FB1E5200DF8880 /* MySettingIcon.png */,
+				ABBC271415FB1E5200DF8880 /* MySettingIcon@2x.png */,
+			);
+			name = "___PACKAGENAME___.bundle";
+			sourceTree = "<group>";
+		};
+		ABBC271515FB1E5200DF8880 /* var */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC271615FB1E5200DF8880 /* mobile */,
+			);
+			name = var;
+			sourceTree = "<group>";
+		};
+		ABBC271615FB1E5200DF8880 /* mobile */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC271715FB1E5200DF8880 /* Library */,
+			);
+			name = mobile;
+			sourceTree = "<group>";
+		};
+		ABBC271715FB1E5200DF8880 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC271815FB1E5200DF8880 /* Preferences */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		ABBC271815FB1E5200DF8880 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC271915FB1E5200DF8880 /* com.zerox.MySetting.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABBC26F515FB1E5200DF8880 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABBC26F715FB1E5200DF8880 /* MySetting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBC271D15FB1E5200DF8880 /* Build configuration list for PBXNativeTarget "MySetting" */;
+			buildPhases = (
+				ABBC26F315FB1E5200DF8880 /* Sources */,
+				ABBC26F415FB1E5200DF8880 /* Frameworks */,
+				ABBC26F515FB1E5200DF8880 /* Headers */,
+				ABBC26F615FB1E5200DF8880 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySetting;
+			productName = MySetting;
+			productReference = ABBC26F815FB1E5200DF8880 /* MySetting.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBC26EE15FB1E5200DF8880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = ABBC26F115FB1E5200DF8880 /* Build configuration list for PBXProject "MySetting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABBC26EC15FB1E5200DF8880;
+			productRefGroup = ABBC26F915FB1E5200DF8880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBC26F715FB1E5200DF8880 /* MySetting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABBC26F615FB1E5200DF8880 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBC26F315FB1E5200DF8880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBC270B15FB1E5200DF8880 /* MySettingController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABBC271B15FB1E5200DF8880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		ABBC271C15FB1E5200DF8880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		ABBC271E15FB1E5200DF8880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySetting/MySetting-Prefix.pch";
+				INFOPLIST_FILE = "MySetting/MySetting-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		ABBC271F15FB1E5200DF8880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySetting/MySetting-Prefix.pch";
+				INFOPLIST_FILE = "MySetting/MySetting-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBC26F115FB1E5200DF8880 /* Build configuration list for PBXProject "MySetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBC271B15FB1E5200DF8880 /* Release */,
+				ABBC271C15FB1E5200DF8880 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBC271D15FB1E5200DF8880 /* Build configuration list for PBXNativeTarget "MySetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBC271E15FB1E5200DF8880 /* Release */,
+				ABBC271F15FB1E5200DF8880 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBC26EE15FB1E5200DF8880 /* Project object */;
+}
